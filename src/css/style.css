@@ -68,7 +68,7 @@ div.item{
 }
 
 .hero:after {
-  content: url(../images/seta_preta.png);
+  content: url(../images/seta_branca.png);
   position: absolute;
   height: 35px;
   bottom: 40px;
