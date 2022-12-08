@@ -241,7 +241,7 @@ div.item{
   }
 }
 
-/*  PROJECTS  */
+/*  FOOTER  */
 
 .footer {
   grid-area: footer;
@@ -264,7 +264,7 @@ div.item{
 .footer nav ul{
   display: flex;
   justify-content: center;
-  max-width: 320px;
+  max-width: 120px;
   margin: 0 auto;
 }
 
@@ -286,19 +286,21 @@ div.item{
 }
 
 .footer .social ul{
-  display: block;
+  display: flex;
+  gap: 50px;
   justify-content: center;
 }
 
-.footer .social ul a i{ 
-  margin: 20px;
+
+.footer .social ul li a i{ 
+  display: flex;
+  margin: 0 auto;
   transition: 0.3s;
 }
 
-.footer .social ul a i:hover{
-  
-  padding: 15px 20px;
-  border-radius: 8px;
+.footer .social ul li a i:hover{
+  padding: 7px 12px;
+  border-radius: 7px;
   background-color: #000;
   color: #fff;
 }
